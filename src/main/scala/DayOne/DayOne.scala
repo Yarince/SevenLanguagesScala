@@ -1,3 +1,5 @@
+package DayOne
+
 /**
   * Created by yarince on 24/03/2018.
   */
@@ -79,5 +81,29 @@ object DayOne extends App {
 
   val range3 = 0 to 10
   println(range3)
+
+  val range4 = 'a' to 'e'
+  println(range4)
+
+  val person = ("Elvis", "Presley")
+  println(person)
+
+  println(person._1)
+  println(person._2)
+  //  println(person._3)
+
+  val (x, y) = (1, 2)
+
+  val myCompass = new Compass
+  myCompass.turnRight()
+  myCompass.turnRight()
+  myCompass.turnLeft()
+  myCompass.turnLeft()
+  myCompass.turnLeft()
+
+  val bob = new Person("Bob")
+  val bobTate = new Person("Bob", "Tate")
+
+
 
 }
